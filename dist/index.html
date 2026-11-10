@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/img/favico.png" type="image/x-icon">
+    <title>Examen Unidad 4</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col text-center">
+                <h1 class="text-danger">Plantilla Examen Unidad 4</h1>
+                <form action="" id="regexForm">
+                    <p class="lead">Ingrese una expresión regular y un texto para verificar si el texto cumple con la expresión.</p>
+                    <div class="mb-3">
+                        <label for="expresionInput" class="form-label">Expresión Regular <i class="fa-solid fa-code"></i>:</label>
+                        <input type="text" class="form-control" id="expresionInput" placeholder="Ingrese la expresión regular">
+                    </div>
+                    <div class="mb-3">
+                        <label for="textoInput" class="form-label">Texto<i class="fa-solid fa-book"></i>:</label>
+                        <input type="text" class="form-control" id="textoInput" placeholder="Ingrese el texto">
+                    </div>
+                    <button class="btn btn-primary" type="button" id="verificarBtn">Verificar  <i class="fa-solid fa-check"></i></button>
+                    <button class="btn btn-danger" type="reset" id="limpiarBtn">Limpiar<i class="fa-solid fa-broom"></i></button>
+                </form>
+                <div id="resultado" class="mt-3"></div>
+            </div>
+        </div>
+    </div>    
+    <script src="./bundle.js"></script>
+</body>
+</html>
